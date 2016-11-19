@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quick_index_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wulei2554.multianimation.animation.QuickIndexBar">
+
+    <com.wulei2554.multianimation.view.QuickIndexBar
+        android:id="@+id/quickIndex"
+        android:background="#f00"
+        android:layout_width="30dp"
+        android:layout_height="match_parent" />
+</RelativeLayout>

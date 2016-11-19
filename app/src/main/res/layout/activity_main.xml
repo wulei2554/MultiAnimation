@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.wulei2554.multianimation.MainActivity">
+
+    <Button
+        android:id="@+id/quickIndexBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="快速索引" />
+    <Button
+        android:id="@+id/headParallax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="头部视差" />
+    <Button
+        android:id="@+id/slidingDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动删除" />
+    <Button
+        android:id="@+id/stick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="粘性控件" />
+</LinearLayout>
